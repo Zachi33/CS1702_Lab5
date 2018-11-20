@@ -80,8 +80,8 @@ public class CS1702_Lab5 {
 		 * only makes a reference point (so both variables use the same Data). To effectively
 		 * copy all data points clone function has to be used
 		 */
-		ArrayD = (ArrayList<Data>)ArrayC.clone();	
 		
+		ArrayD = (ArrayList<Data>)ArrayC.clone();	
 		PrintDataArray(ArrayB);
 		System.out.println();
 		ArrayA.remove(1);
